@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { HashRouter, Route, Routes } from 'react-router'
+import ScrollToTop from "./components/ScrollToTop";
 
 import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
@@ -17,6 +18,7 @@ function App() {
 
   return <>
     <HashRouter>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
         <Route path="/projects" element={<Projects/>}/>
