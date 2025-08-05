@@ -39,7 +39,7 @@ const SongSelectorPage = () => {
     window.scrollTo(0, 0);
     
     // Set page title
-    document.title = 'Music - Your Name | Song Selector';
+    document.title = 'Music - Merlin Morton | Song Selector';
     
     // Set meta description
     const metaDescription = document.querySelector('meta[name="description"]');
